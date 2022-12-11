@@ -1,0 +1,47 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Mastercam 2022 Chook Template</Name>
+    <Description>&lt;Mastercam Plugin&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Mastercam 2022 Chook Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="JobCenter.vcxproj" File="JobCenter.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">JobCenter.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OpMgrPage.cpp">OpMgrPage.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="StdAfx.cpp">StdAfx.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.h">main.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OpMgrPage.h">OpMgrPage.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="resource.h">resource.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="StdAfx.h">StdAfx.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OpMgrPage.rc">OpMgrPage.rc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="bitmap1.bmp">bitmap1.bmp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="icon16.png">RES\icon16.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="icon32.png">RES\icon32.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OpManagerActionsToolbar.png">RES\OpManagerActionsToolbar.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OpManagerActionsToolbar24.png">RES\OpManagerActionsToolbar24.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Toolbar.png">RES\Toolbar.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="JobCenter.ft">JobCenter.ft</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MastercamSDK.props">MastercamSDK.props</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="16x Pocket Dark Mode.png">16x Pocket Dark Mode.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="16x Pocket Light Mode.png">16x Pocket Light Mode.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="16xContourDarkMode.png">16xContourDarkMode.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="16xContourLightMode.png">16xContourLightMode.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OpMgrPage.pdf">OpMgrPage.pdf</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="The Pre and Post Build Events.pdf">The Pre and Post Build Events.pdf</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Using a props file to set the path to the SDK.pdf">Using a props file to set the path to the SDK.pdf</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Post-Build-InstallAddIn.bat">Post-Build-InstallAddIn.bat</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Pre-Build-CheckFolder.bat">Pre-Build-CheckFolder.bat</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

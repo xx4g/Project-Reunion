@@ -1,0 +1,18 @@
+# Application name should be uniquely named and be specific to your 
+# company and/or product.
+APPLICATION "_JobCenter_"
+
+# Point to the locations of your function and resource libraries.
+FUNC_DLL "chooks\JobCenter.dll"
+RES_DLL  "chooks\JobCenter.dll"
+# The category for your C-Hook.
+CATEGORY "Automation"
+
+# Specify the name of your entry point function,
+# the small icon and large icon for your C-Hook
+# as well as the tool tip resource ID.
+FUNCTION CPP "m_main"
+    SPNG 18001 
+    LPNG 18002
+    TIP  1
+END_FUNCTION
